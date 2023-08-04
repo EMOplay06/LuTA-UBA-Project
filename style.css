@@ -140,9 +140,8 @@ hr {
 .NAVBAR {
     display: flex;
     align-items: center;
-    justify-content:;
     margin-right: 1rem;
-    gap: 2%;
+    gap: 4%;
 }
 
 .uba-logo {
@@ -190,7 +189,7 @@ hr {
 
 .hero-text p {
     color: #000;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: metrophobic;
     font-size: 1.32025rem;
     font-style: normal;
     font-weight: 400;
@@ -217,15 +216,16 @@ hr {
 
 .rectangle-cover {
     width: 89.6875rem;
-    height: 9.00275rem;
+    height: 7.00275rem;
     flex-shrink: 0;
     background: #FFF;
-    box-shadow: 0px 7.4739580154418945px 2.7178030014038086px 0px rgba(0, 0, 0, 0.25), 0px 2.7178030014038086px 2.7178030014038086px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 7px 2px 0px rgba(0, 0, 0, 0.25), 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
 }
 
-/* .rectangle {
-    margin-top: 15rem
-} */
+.rectangle {
+    margin-top: 15%;
+}
 
 .rectangle h2 {
     text-align: center;
@@ -234,6 +234,7 @@ hr {
     font-size: 1.69863rem;
     font-style: normal;
     font-weight: 400;
+    margin-bottom: 10px;
     line-height: normal;
 }
 
@@ -245,6 +246,179 @@ hr {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+} 
+
+/*========================BANKING NET (SECTION 3)=====================*/
+/* ---------------------image styling------------------- */
+
+.banking-net img {
+    width: 30rem;
+    height: 19.7665rem;
+    flex-shrink: 0;
+}
+/* --------------------text styling---------------------- */
+
+.banking-net {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
 }
 
-/*========================
+/*====================RECTANGLE 5 (SECTION 4)==================== */
+.rectangle-5 {
+    display: flex;
+    width: 89.6875rem;
+    height: 20.93413rem;
+    flex-shrink: 0;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+.rectangle-5 h2 {
+    font-family: Myanmar Khyay;
+    font-size: 1.68825rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.05906rem;
+    margin-bottom: 2%;
+}
+
+.rectangle-5 hr {
+    width: 3.75631rem;
+    height: 0.211rem;
+    display: inline-block;
+    background: #f00;
+    margin-bottom: 10%;
+}
+
+.rectangle-5 p {
+    width: 19.03488rem;
+    font-family: Open Sans;
+    font-size: 0.97075rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 181.184%; 
+}
+
+.app-video {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.image-1 {
+    position: relative;
+    width: 89.6875rem;
+    height: 35.83281rem;
+    flex-shrink: 0;
+}
+
+.image-2 {
+    position: absolute;
+    top: 12.15rem;
+    left: 39.25rem;
+    width: 11.48rem;
+    height: 11.52219rem;
+    flex-shrink: 0;
+}
+
+/* ================HERO 2 (SECTION 5)===================== */
+/* ----------------images styling---------------------- */
+
+.img-1 {
+    width: 20.56144rem;
+    height: 29.96944rem;
+    margin-top: 3rem;
+}
+
+.img-2 {
+    width: 18.09263rem;
+    height: 33.21106rem;
+}
+
+.hero-2-img {
+    display: flex;
+}
+
+/* ------------------other styling-------------------- */
+
+
+.hero-2 {
+    display: flex;
+    width: 77.34463rem;
+    height: 33.39231rem;
+    flex-shrink: 0;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 7%;
+    margin-right: 5%;
+    margin-top: 20%;
+}
+
+.hero-2-text h2{
+    color: #000;
+    text-align: center;
+    font-family: Myanmar Khyay;
+    font-size: 1.78794rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 181.184%;
+}
+
+.hero-2-text hr {
+    width: 2.89475rem;
+    height: 0.21288rem;
+    background: #F00;
+    margin-bottom: 2rem;
+}
+
+.hero-2-text p {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 1.36225rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 181.184%;
+    margin-bottom:2rem;
+}
+
+.hero-2-btn input{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 1.36225rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 181.184%;
+    width: 14.13331rem;
+    height: 3.66106rem;
+    flex-shrink: 0;
+    border-radius: 0.38313rem;
+    background: linear-gradient(170deg, #B10606 0%, rgba(105, 8, 8, 0.80) 100%);
+}
+
+.rectangle-2 {
+    width: 89.6875rem;
+    height: 7.00275rem;
+    flex-shrink: 0;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 7%;
+}
+
+.rectangle-2 h1 {
+    font-family: Myanmar Khyay;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 181.184%;
+}
+
+.rectangle-2 p {
+    font-family: Open Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 181.184%;
+}
