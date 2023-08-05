@@ -422,3 +422,313 @@ hr {
     font-weight: 300;
     line-height: 181.184%;
 }
+
+/* ====================FLOAT (SECTION 6)==================== */
+/* ---------------------image styling---------------- */
+
+.float-img img {
+    width: 30.68938rem;
+    height: 46.01331rem;
+    flex-shrink: 0;
+}
+
+.float-texts img {
+    width: 1.03819rem;
+    height: 0.99825rem;
+    flex-shrink: 0;
+    margin-right: 1rem;
+}
+
+/* ------------------other styling--------------------- */
+
+.float {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.float-img {
+    float: left;
+}
+
+.float-list ul{
+    display: flex;
+    width: 58.5rem;
+    height: 7.00275rem;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    gap: 4%;
+}
+
+.float-list ul li {
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 1.32888rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 181.184%;
+    width: 10.96344rem;
+    height: 3.15613rem;
+    flex-shrink: 0;
+    border: 0.664px solid #FAF9F6;
+    background: #FFF;
+    box-shadow: 3.986711025238037px 3.3222591876983643px 2.6578073501586914px 0px rgba(0, 0, 0, 0.25);
+}
+
+.float-texts {
+    margin-left: 35%;
+}
+
+.float-texts hr {
+    width: 50.66444rem;
+    height: 0.0415rem;
+    background: #999;
+
+}
+
+.float-texts p, .float-texts h2 {
+    margin: 1rem;
+} 
+
+/* =======================DISCOVER (SECTION 7)=================== */
+/* ----------------------images styling----------------------- */
+
+.discover img {
+    position: relative;
+    width: 29.57rem;
+    height: 8.98544rem;
+    flex-shrink: 0;
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0.53) 0%, rgba(255, 0, 0, 0.53) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+/* -------------------------other styling--------------------- */
+
+.discover {
+    display: flex;
+    position: relative;
+    gap: 0.5rem;
+}
+
+.discover-text {
+    position: absolute;
+    top: 3rem;
+    width: 20rem;
+    margin-left: 5rem;
+    text-align: center;
+}
+
+.discover-text h2 {
+    color: #FFF;
+    font-family: Myanmar Khyay;
+    font-size: 1.75531rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 1rem;
+}
+
+.discover-text p {
+    color: #FFF;
+    font-family: Myanmar Khyay;
+    font-size: 1.003rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* ========================INFO PAGE (SECTION 9)================== */
+/* ------------------------images styling------------------ */
+
+.apple-download img {
+    width: 2.69538rem;
+    margin-top: 0.5rem;
+    float: left;
+    height: 2.69538rem;
+    flex-shrink: 0;
+    background: url(<path-to-image>), rgb(51, 47, 47) 50% / cover no-repeat;
+}
+
+.playstore-download img {
+    margin-top: 0.5rem;
+    float: left;
+    width: 2.69538rem;
+    height: 2.69538rem;
+    flex-shrink: 0;
+    background: url(<path-to-image>), rgb(51, 47, 47) 50% / cover no-repeat;
+}
+
+.social-medias img {
+    margin-right: 0.5rem;
+    width: 2.32931rem;
+    height: 2.32931rem;
+    flex-shrink: 0;
+    border-radius: 3.46488rem;
+    border: 0.32px solid #FFF;
+    background: url(<path-to-image>), rgb(51, 47, 47) / cover no-repeat;
+}
+/* -----------------------other styling---------------------- */
+
+.info-page {
+    width: 90rem;
+    height: 33.52363rem;
+    flex-shrink: 0;
+    background: rgba(0, 0, 0, 0.80);
+    display: flex;
+    justify-content: space-between;
+    margin-top: -0.7rem;
+    padding-top: 6%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.info-list h3 {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 1.34769rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 1.5rem;
+}
+
+.info-list p {
+    color: #999;
+    font-family: Open Sans;
+    font-size: 1.26344rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height:normal;
+    margin-bottom: 1rem;
+}
+
+.info-list-1 h3{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 1.34769rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 1.5rem;
+}
+
+.info-list-1 p {
+    color: #999;
+    font-family: Open Sans;
+    font-size: 1.26344rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height:normal;
+}
+
+.info-list-1 h5 {
+    color: #999;
+    font-family: Open Sans;
+    font-size: 0.92656rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 21rem;
+}
+
+#uba-email {
+    width: 13.39263rem;
+    height: 3.79038rem;
+    flex-shrink: 0;
+    border-radius: 0.84231rem 0rem 0rem 0.84231rem;
+    background: #FFF;
+    margin-right: -0.25rem;
+    color: #999;
+    font-family: Open Sans;
+    font-size: 1.26344rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+
+}
+
+#uba-btn {
+    width: 8.00188rem;
+    height: 3.79038rem;
+    flex-shrink: 0;
+    border-radius: 0rem 0.84231rem 0.84231rem 0rem;
+    background: #B10606;
+    margin-left: -0.25rem;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 1.26344rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sign-up-section {
+    margin-bottom: 1rem;
+}
+
+.apple-download {
+    width: 10.99206rem;
+    height: 3.664rem;
+    flex-shrink: 0;
+    border-radius: 0.25269rem;
+    border: 0.674px solid #FFF;
+}
+
+.apple-download p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+    margin-left: 4rem;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 0.84231rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.apple-download h3 {
+    margin-left: 4rem;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 1.01075rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.playstore-download {
+    width: 10.99206rem;
+    height: 3.664rem;
+    flex-shrink: 0;
+    border-radius: 0.25269rem;
+    border: 0.674px solid #FFF;
+}
+
+.playstore-download p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+    margin-left: 4rem;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 0.84231rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.playstore-download h3 {
+    margin-left: 4rem;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 1.01075rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.download-section {
+    display: flex;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
